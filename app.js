@@ -545,7 +545,7 @@ function setupSubscriptionButtons() {
 
 // Handle subscription
 function handleSubscription(planName, buttonElement) {
-  console.log('Processing subscription for:', planName);
+  console.log('Processing request for:', planName);
   
   // Show loading state
   const originalText = buttonElement.textContent;
