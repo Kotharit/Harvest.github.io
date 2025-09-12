@@ -555,7 +555,7 @@ function handleSubscription(planName, buttonElement) {
   
   // Simulate subscription process
   setTimeout(() => {
-    showNotification(`Thank you for subscribing to ${planName}! We'll contact you with payment details.`, 'success');
+    showNotification(`Thank you for showing interest in ${planName}! We'll contact you when we launch.`, 'Thank You');
     
     // Reset button
     buttonElement.textContent = originalText;
