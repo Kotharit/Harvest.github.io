@@ -3,59 +3,83 @@
 // Example: "Coconut Scrubbers": "images/coconut-scrubbers.jpg",
 // The images should be placed in the same folder as this website or use relative/absolute paths
 const PRODUCT_IMAGE_PATHS = {
-  "Coconut Scrubbers": "images/coconut-scrubbers.png", // Add your image path here: "images/coconut-scrubbers.jpg"
-  "Coconut Shell Charcoal": "images/coconut-shell-charcoal.png", // Add your image path here
-  "Coconut Butter Snacks": "images/coconut-butter-snacks.png", // Add your image path here
-  "Coconut Oil": "images/coconut-oil.png", // Add your image path here
-  "Aloe Vera Skin Care Mask": "images/aloe-vera-face-mask.png", // Add your image path here
-  "Homemade Neem Soap": "", // Add your image path here
-  "Aloe Vera Hand Soap": "", // Add your image path here
-  "Rose Water": "", // Add your image path here
-  "Neem Kajal": "", // Add your image path here
-  "Ginger Candy": "", // Add your image path here
-  "Apple Cider Vinegar": "", // Add your image path here
-  "Orange Daily Supplement": "", // Add your image path here
-  "Jamun Jam": "", // Add your image path here
-  "Moghra Sharbat": "", // Add your image path here
-  "Brahmi Powder": "", // Add your image path here
-  "Moringa Powder": "", // Add your image path here
-  "Lemon Leaf Powder": "", // Add your image path here
-  "Pomegranate Powder": "", // Add your image path here
-  "Neem Leaf Powder": "", // Add your image path here
-  "Jamun Seed Powder": "", // Add your image path here
-  "Guava Leaf Tea": "", // Add your image path here
-  "Lemon Tea": "", // Add your image path here
-  "Senna Tea": "", // Add your image path here
-  "Anjeer Tea": "", // Add your image path here
-  "Peppermint Tea": "", // Add your image path here
-  "Butterfly Pea Tea": "", // Add your image path here
-  "Hibiscus Tea": "" // Add your image path here
+  "Coconut Scrubbers": "images/coconut-scrubbers.png",
+  "Coconut Shell Charcoal": "images/coconut-shell-charcoal.png",
+  "Coconut Butter Snacks": "images/coconut-butter-snacks.png",
+  "Coconut Oil": "images/coconut-oil.png", 
+  "Aloe Vera Skin Care Mask": "images/aloe-vera-face-mask.png", 
+  "Homemade Neem Soap": "images/neem-soap.png",
+  "Aloe Vera Hand Soap": "images/aloe-vera-soap.png",
+  "Rose Water": "images/rose-water.png",
+  "Lemon Powder": "images/Lemon-powder.png",
+  "Moghra Sharbat": "images/mogra-sharbat.png", 
+  "Brahmi Powder": "images/brahmi-powder.png",
+  "Moringa Powder": "images/moringa-powder.png", 
+  "Lemon Grass Infused Water": "images/lemon-grass infused water.png", 
+  "Pomegranate Powder": "images/pomo-powder.png",
+  "Neem Leaf Powder": "images/neem-powder.png", 
+  "Guava Leaf Tea": "images/guava-leaf-tea.png",
+  "Green Tea": "images/green-tea.png",
+  "Senna Tea": "images/senna-tea.png",
+  "Anjeer Tea": "images/anjeer-tea.png",
+  "Peppermint Infused Water": "images/peppermint-infused-water.png",
+  "Butterfly Pea Tea": "images/butterfly-peatea.png", 
+  "Hibiscus Tea": "images/hibiscus-tea.png",
+  "Neem Kajal": "images/neem-kajal.png",
+  "Jamun Seed Powder": "images/jamun-seed-powder.png",
+  "Neem Oil": "images/neem-oil.png",
+  "Paan": "images/paan.png",
+  "Star Fruit": "images/amrak-achaar.png",
+  "Mint Lemon Ice Cubes": "images/mint-lemon-icecubes.png",
+  "Coconut": "images/coconut.png",
+  "Coconut Toffee": "images/coconut-toffee.png",
+  "Lemon": "images/lemon.png",
+  "Okra": "images/okra.png",
+  "Bottle Gourd": "images/bottlegourd.png",
+  "Bitter Melon": "images/bitter-melon.png",
+  "Banana Powder": "images/banana-powder.png",
+  "Tulsi Powder": "images/tulsi-powder.png",
+  "Papaya Leaf Powder": "images/papaya-leaf-powder.png",
+  "Karonda": "images/Karonda.png",
+  "Cucumber Drink": "images/Cucumber-drink.png",
+  "Curry Leaves": "images/cleaves.png",
+  "Mgreens": "images/mgreens.png",
+  "Fpot": "images/fpot.png",
+  "Mint Leaves": "images/mleaves.png",
+  "Boven": "images/Boven.png",
+  "Vcompost": "images/Vcompost.png"
 };
 
 // Application data with integrated image paths
 const appData = {
   products: [
     {
-      name: "Coconut Scrubbers",
-      category: "Coconut Products",
-      description: "Natural exfoliating scrubbers made from coconut fiber",
-      imagePath: PRODUCT_IMAGE_PATHS["Coconut Scrubbers"] || ""
+      name: "Coconuts",
+      category: "Produce",
+      description: "Tropical fruit with a hard shell, sweet water, and rich, creamy flesh.",
+      imagePath: PRODUCT_IMAGE_PATHS["Coconut"] || ""
+    },
+    {
+      name: "Coconut Toffees",
+      category: "Herbal",
+      description: "Tropical fruit with a hard shell, sweet water, and rich, creamy flesh.",
+      imagePath: PRODUCT_IMAGE_PATHS["Coconut Toffee"] || ""
     },
     {
       name: "Coconut Shell Charcoal", 
-      category: "Coconut Products",
+      category: "Products",
       description: "Activated charcoal from coconut shells for purification",
       imagePath: PRODUCT_IMAGE_PATHS["Coconut Shell Charcoal"] || ""
     },
     {
       name: "Coconut Butter Sticks",
-      category: "Coconut Products", 
+      category: "Herbal", 
       description: "Healthy snacks made with pure coconut butter",
       imagePath: PRODUCT_IMAGE_PATHS["Coconut Butter Snacks"] || ""
     },
     {
       name: "Coconut Oil",
-      category: "Coconut Products", 
+      category: "Essential Oils", 
       description: "Pure, cold-pressed coconut oil for cooking and skincare",
       imagePath: PRODUCT_IMAGE_PATHS["Coconut Oil"] || ""
     },
@@ -72,6 +96,12 @@ const appData = {
       imagePath: PRODUCT_IMAGE_PATHS["Homemade Neem Soap"] || ""
     },
     {
+      name: "Neem Oil",
+      category: "Essential Oils",
+      description: "Natural exfoliating oil made from neem",
+      imagePath: PRODUCT_IMAGE_PATHS["Neem Oil"] || ""
+    },
+    {
       name: "Aloe Vera Hand Soap",
       category: "Cosmetic Products", 
       description: "Gentle hand soap with moisturizing aloe vera",
@@ -85,37 +115,13 @@ const appData = {
     },
     {
       name: "Neem Kajal",
-      category: "MIC Products",
+      category: "Herbal",
       description: "Traditional eye liner made with neem",
       imagePath: PRODUCT_IMAGE_PATHS["Neem Kajal"] || ""
     },
     {
-      name: "Ginger Candy",
-      category: "MIC Products", 
-      description: "Natural ginger candies for digestive health",
-      imagePath: PRODUCT_IMAGE_PATHS["Ginger Candy"] || ""
-    },
-    {
-      name: "Apple Cider Vinegar",
-      category: "MIC Products",
-      description: "Organic apple cider vinegar with mother",
-      imagePath: PRODUCT_IMAGE_PATHS["Apple Cider Vinegar"] || ""
-    },
-    {
-      name: "Orange Daily Supplement",
-      category: "MIC Products",
-      description: "Vitamin C rich orange supplement",
-      imagePath: PRODUCT_IMAGE_PATHS["Orange Daily Supplement"] || ""
-    },
-    {
-      name: "Jamun Jam",
-      category: "MIC Products",
-      description: "Artisanal jam made from fresh jamun fruits",
-      imagePath: PRODUCT_IMAGE_PATHS["Jamun Jam"] || ""
-    },
-    {
       name: "Moghra Sharbat",
-      category: "MIC Products",
+      category: "Liquids",
       description: "Traditional refreshing drink with moghra essence",
       imagePath: PRODUCT_IMAGE_PATHS["Moghra Sharbat"] || ""
     },
@@ -132,10 +138,34 @@ const appData = {
       imagePath: PRODUCT_IMAGE_PATHS["Moringa Powder"] || ""
     },
     {
-      name: "Lemon Leaf Powder",
-      category: "Powders",
-      description: "Aromatic lemon leaf powder for health",
-      imagePath: PRODUCT_IMAGE_PATHS["Lemon Leaf Powder"] || ""
+      name: "Lemon Grass Infused Water",
+      category: "Liquids",
+      description: "Aromatic lemon grass infused water for gut health",
+      imagePath: PRODUCT_IMAGE_PATHS["Lemon Grass Infused Water"] || ""
+    },
+    {
+      name: "Shikanjabeen",
+      category: "Liquids",
+      description: "A refreshing drink made of sparkling water, vinegar, mint, honey, sugar and cucumber",
+      imagePath: PRODUCT_IMAGE_PATHS["Cucumber Drink"] || ""
+    },
+    {
+      name: "Paan",
+      category: "Herbal",
+      description: "Aromatic paan to rejuvenate your taste palette",
+      imagePath: PRODUCT_IMAGE_PATHS["Paan"] || ""
+    },
+    {
+      name: "Star Fruit Achaar",
+      category: "Herbal",
+      description: "A tangy, spicy pickle bursting with bold flavors.",
+      imagePath: PRODUCT_IMAGE_PATHS["Star Fruit"] || ""
+    },
+    {
+      name: "Mint-Lemon Ice Cubes",
+      category: "Herbal",
+      description: "Aromatic mint-lemon ice cubes to enrich your water",
+      imagePath: PRODUCT_IMAGE_PATHS["Mint Lemon Ice Cubes"] || ""
     },
     {
       name: "Pomegranate Powder",
@@ -162,10 +192,10 @@ const appData = {
       imagePath: PRODUCT_IMAGE_PATHS["Guava Leaf Tea"] || ""
     },
     {
-      name: "Lemon Tea",
+      name: "Green Tea",
       category: "Tea Products",
-      description: "Refreshing lemon herbal tea",
-      imagePath: PRODUCT_IMAGE_PATHS["Lemon Tea"] || ""
+      description: "Refreshing green tea",
+      imagePath: PRODUCT_IMAGE_PATHS["Green Tea"] || ""
     },
     {
       name: "Senna Tea",
@@ -180,10 +210,10 @@ const appData = {
       imagePath: PRODUCT_IMAGE_PATHS["Anjeer Tea"] || ""
     },
     {
-      name: "Peppermint Tea",
-      category: "Tea Products", 
-      description: "Soothing peppermint herbal tea",
-      imagePath: PRODUCT_IMAGE_PATHS["Peppermint Tea"] || ""
+      name: "Peppermint Infused Water",
+      category: "Liquids", 
+      description: "Soothing peppermint herbal drink",
+      imagePath: PRODUCT_IMAGE_PATHS["Peppermint Infused Water"] || ""
     },
     {
       name: "Butterfly Pea Tea",
@@ -196,6 +226,90 @@ const appData = {
       category: "Tea Products",
       description: "Heart-healthy hibiscus flower tea",
       imagePath: PRODUCT_IMAGE_PATHS["Hibiscus Tea"] || ""
+    },
+    {
+      name: "Lemons",
+      category: "Produce",
+      description: "Known for its tangy, refreshing, and zesty flavor",
+      imagePath: PRODUCT_IMAGE_PATHS["Lemon"] || ""
+    },
+    {
+      name: "Okra",
+      category: "Produce",
+      description: "A green, slender vegetable known for its tender pods and slightly slimy texture when cooked",
+      imagePath: PRODUCT_IMAGE_PATHS["Okra"] || ""
+    },
+    {
+      name: "Curry Leaves",
+      category: "Produce",
+      description: "Aromatic leaves rich in antioxidants, iron, and vitamins that aid digestion, control blood sugar, improve hair and skin health, and support heart function",
+      imagePath: PRODUCT_IMAGE_PATHS["Curry Leaves"] || ""
+    },
+    {
+      name: "Mint Leaves",
+      category: "Produce",
+      description: "Refreshing herbs rich in antioxidants and vitamins that aid digestion, relieve acidity, freshen breath, boost immunity, and promote skin and respiratory health",
+      imagePath: PRODUCT_IMAGE_PATHS["Mint Leaves"] || ""
+    },
+    {
+      name: "Bottle Gourd",
+      category: "Produce",
+      description: "A light green, water-rich vegetable with a mild flavor",
+      imagePath: PRODUCT_IMAGE_PATHS["Bottle Gourd"] || ""
+    },
+    {
+      name: "Bitter Gourd",
+      category: "Produce",
+      description: "A green, bumpy vegetable with a distinct bitter taste and many health benefits",
+      imagePath: PRODUCT_IMAGE_PATHS["Bitter Melon"] || ""
+    },
+    {
+      name: "Carissa Carandas",
+      category: "Produce",
+      description: "Carissa carandas (Karonda) is a nutrient-rich berry-like fruit packed with vitamin C, iron, and antioxidants that support digestion, boost immunity, and promote heart health",
+      imagePath: PRODUCT_IMAGE_PATHS["Karonda"] || ""
+    },
+    {
+      name: "Banana Powder",
+      category: "Powders",
+      description: "A fine, nutrient-rich powder made from dehydrated bananas, often used in smoothies, baby food, and baking",
+      imagePath: PRODUCT_IMAGE_PATHS["Banana Powder"] || ""
+    },
+    {
+      name: "Tulsi Powder",
+      category: "Powders",
+      description: "Tulsi powder boosts immunity, reduces stress, and aids digestion",
+      imagePath: PRODUCT_IMAGE_PATHS["Tulsi Powder"] || ""
+    },
+    {
+      name: "Papaya Leaf Powder",
+      category: "Powders",
+      description: "Papaya leaf powder supports immunity, aids digestion, and boosts <platelets></platelets>",
+      imagePath: PRODUCT_IMAGE_PATHS["Papaya Leaf Powder"] || ""
+    },
+    {
+      name: "Microgreens",
+      category: "Products",
+      description: "Young vegetable and herb seedlings packed with concentrated vitamins, minerals, and antioxidants that support immunity, improve digestion, boost metabolism, and promote overall health",
+      imagePath: PRODUCT_IMAGE_PATHS["Mgreens"] || ""
+    },
+    {
+      name: "Bamboo Ovens",
+      category: "Products",
+      description: "A traditional eco-friendly steaming tool that preserves nutrients, enhances flavor, and allows healthy oil-free cooking of vegetables, dumplings, fish, and more",
+      imagePath: PRODUCT_IMAGE_PATHS["Boven"] || ""
+    },
+    {
+      name: "Fridge Pots",
+      category: "Products",
+      description: "A natural, eco-friendly cooling vessel that keeps water cool, enhances taste, balances pH, and retains essential minerals while promoting sustainable living",
+      imagePath: PRODUCT_IMAGE_PATHS["Fpot"] || ""
+    },
+    {
+      name: "Vermicompost",
+      category: "Products",
+      description: "organic fertilizer made from earthworm-processed waste that enriches soil with nutrients, improves fertility, boosts plant growth, and enhances soil structure naturally",
+      imagePath: PRODUCT_IMAGE_PATHS["Vcompost"] || ""
     }
   ]
 };
@@ -545,7 +659,7 @@ function setupSubscriptionButtons() {
 
 // Handle subscription
 function handleSubscription(planName, buttonElement) {
-  console.log('Processing request for:', planName);
+  console.log('Processing subscription for:', planName);
   
   // Show loading state
   const originalText = buttonElement.textContent;
