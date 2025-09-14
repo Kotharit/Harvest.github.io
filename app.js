@@ -44,7 +44,7 @@ const PRODUCT_IMAGE_PATHS = {
   "Cucumber Drink": "images/Cucumber-drink.png",
   "Curry Leaves": "images/cleaves.png",
   "Mgreens": "images/mgreens.png",
-  "Fpot": "images/fpot.png",
+  "Fpot": "images/Fpot.png",
   "Mint Leaves": "images/mleaves.png",
   "Boven": "images/Boven.png",
   "Vcompost": "images/Vcompost.png"
@@ -64,30 +64,6 @@ const appData = {
       category: "Herbal",
       description: "Tropical fruit with a hard shell, sweet water, and rich, creamy flesh.",
       imagePath: PRODUCT_IMAGE_PATHS["Coconut Toffee"] || ""
-    },
-    {
-      name: "Coconut Shell Charcoal", 
-      category: "Products",
-      description: "Activated charcoal from coconut shells for purification",
-      imagePath: PRODUCT_IMAGE_PATHS["Coconut Shell Charcoal"] || ""
-    },
-    {
-      name: "Coconut Butter Sticks",
-      category: "Herbal", 
-      description: "Healthy snacks made with pure coconut butter",
-      imagePath: PRODUCT_IMAGE_PATHS["Coconut Butter Snacks"] || ""
-    },
-    {
-      name: "Coconut Oil",
-      category: "Essential Oils", 
-      description: "Pure, cold-pressed coconut oil for cooking and skincare",
-      imagePath: PRODUCT_IMAGE_PATHS["Coconut Oil"] || ""
-    },
-    {
-      name: "Aloe Vera Skin Care Mask",
-      category: "Cosmetic Products",
-      description: "Nourishing face mask with pure aloe vera",
-      imagePath: PRODUCT_IMAGE_PATHS["Aloe Vera Skin Care Mask"] || ""
     },
     {
       name: "Homemade Neem Soap",
@@ -118,12 +94,6 @@ const appData = {
       category: "Herbal",
       description: "Traditional eye liner made with neem",
       imagePath: PRODUCT_IMAGE_PATHS["Neem Kajal"] || ""
-    },
-    {
-      name: "Moghra Sharbat",
-      category: "Liquids",
-      description: "Traditional refreshing drink with moghra essence",
-      imagePath: PRODUCT_IMAGE_PATHS["Moghra Sharbat"] || ""
     },
     {
       name: "Brahmi Powder",
@@ -180,21 +150,15 @@ const appData = {
       imagePath: PRODUCT_IMAGE_PATHS["Neem Leaf Powder"] || ""
     },
     {
-      name: "Jamun Seed Powder",
-      category: "Powders",
-      description: "Blood sugar supporting jamun seed powder",
-      imagePath: PRODUCT_IMAGE_PATHS["Jamun Seed Powder"] || ""
-    },
-    {
       name: "Guava Leaf Tea",
       category: "Tea Products", 
       description: "Diabetes-friendly guava leaf herbal tea",
       imagePath: PRODUCT_IMAGE_PATHS["Guava Leaf Tea"] || ""
     },
     {
-      name: "Green Tea",
+      name: "Lemon Grass Tea",
       category: "Tea Products",
-      description: "Refreshing green tea",
+      description: "Refreshing lemon grass tea",
       imagePath: PRODUCT_IMAGE_PATHS["Green Tea"] || ""
     },
     {
@@ -292,18 +256,6 @@ const appData = {
       category: "Products",
       description: "Young vegetable and herb seedlings packed with concentrated vitamins, minerals, and antioxidants that support immunity, improve digestion, boost metabolism, and promote overall health",
       imagePath: PRODUCT_IMAGE_PATHS["Mgreens"] || ""
-    },
-    {
-      name: "Bamboo Ovens",
-      category: "Products",
-      description: "A traditional eco-friendly steaming tool that preserves nutrients, enhances flavor, and allows healthy oil-free cooking of vegetables, dumplings, fish, and more",
-      imagePath: PRODUCT_IMAGE_PATHS["Boven"] || ""
-    },
-    {
-      name: "Fridge Pots",
-      category: "Products",
-      description: "A natural, eco-friendly cooling vessel that keeps water cool, enhances taste, balances pH, and retains essential minerals while promoting sustainable living",
-      imagePath: PRODUCT_IMAGE_PATHS["Fpot"] || ""
     },
     {
       name: "Vermicompost",
