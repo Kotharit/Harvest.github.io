@@ -90,12 +90,6 @@ const appData = {
       imagePath: PRODUCT_IMAGE_PATHS["Rose Water"] || ""
     },
     {
-      name: "Neem Kajal",
-      category: "Herbal",
-      description: "Traditional eye liner made with neem",
-      imagePath: PRODUCT_IMAGE_PATHS["Neem Kajal"] || ""
-    },
-    {
       name: "Brahmi Powder",
       category: "Powders",
       description: "Memory-enhancing brahmi herb powder",
